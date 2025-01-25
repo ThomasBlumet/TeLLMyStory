@@ -1,0 +1,10 @@
+huggingface_hub
+--extra-index-url https://download.pytorch.org/whl/cu117
+torch
+transformers
+gradio==5.12.0
+optimum
+accelerate
+--extra-index-url https://huggingface.github.io/autogptq-index/whl/cu117/
+auto-gptq
+#numpy<2
