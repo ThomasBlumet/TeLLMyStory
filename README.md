@@ -14,7 +14,7 @@ This project contains :
 before running the app.py :
 ``` python app.py ```
 
-Else you can use a Docker container on your own pc under a WSL terminal (check if you've Docker installed else intall it and check the correct installation with ```docker --version```) by following these CLI(after cloning the :
+Else you can use a Docker container on your own pc under a WSL terminal (check if you've Docker installed else intall it and check the correct installation with ```docker --version```) by following these CLI (after cloning the [Hugging Face Docker space repository](https://huggingface.co/spaces/TeLLMyStory/story-generation-docker/tree/main)) :
 
 - Build the docker image with the name **story-generation-app** : 
 
