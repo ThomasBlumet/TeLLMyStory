@@ -7,4 +7,3 @@ optimum
 accelerate
 --extra-index-url https://huggingface.github.io/autogptq-index/whl/cu117/
 auto-gptq
-#numpy<2

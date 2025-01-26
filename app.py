@@ -6,16 +6,6 @@ import auto_gptq
 import gradio as gr
 import time
 
-##installing transformers with force
-import subprocess
-import os
-
-def install(package):
-    subprocess.check_call([os.sys.executable, "-m", "pip", "install", package])
-
-install("transformers")
-##
-
 device = torch.device("cuda:0") if torch.cuda.is_available() else torch.device("cpu")
 
 model_name = "TheBloke/zephyr-7B-beta-GPTQ"
